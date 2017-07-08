@@ -36,6 +36,6 @@
      - Org Mode Protocol						| http://orgmode.org/worg/org-contrib/org-protocol.html
 
 *** BEITRÄGE
--Emacs hides .DS_Store files						| https://medium.com/@LyonsClay/solved-emacs-hides-ds-store-files-30711c13583#.n8vxvvxnu
--Capture HTML from the browser selection into Emacs as org-mode content	| https://github.com/alphapapa/org-protocol-capture-html
+- Emacs hides .DS_Store files						| https://medium.com/@LyonsClay/solved-emacs-hides-ds-store-files-30711c13583#.n8vxvvxnu
+- Capture HTML from the browser selection into Emacs as org-mode content	| https://github.com/alphapapa/org-protocol-capture-html
 
