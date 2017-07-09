@@ -1,4 +1,4 @@
-* EMACS
+** EMACS
 *** EMACS INSTALLATION
 - Anleitung zur Installation							| http://wikemacs.org/wiki/Installing_Emacs_on_GNU/Linux
 *** EMACS PACKAGE & LIBRARIES
@@ -13,14 +13,17 @@
 - Dokumentation									| https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html
 - Dokumentation in anderen Formaten						| https://www.gnu.org/software/emacs/manual/emacs.html
 - Dokumentation als PDF Format für Emacs 25.1					| https://www.gnu.org/software/emacs/manual/pdf/emacs.pdf
+*** EMACS USER WEBSITES 
+- Zhangda | https://zhangda.wordpress.com
+*** EMACS WEBSEITEN
+-  Emacs Rocks | http://emacsrocks.com
+*** EMACS BEITRÄGE
+- Emacs hides .DS_Store files							| https://medium.com/@LyonsClay/solved-emacs-hides-ds-store-files-30711c13583#.n8vxvvxnu
+- Capture HTML from the browser selection into Emacs as org-mode content	| https://github.com/alphapapa/org-protocol-capture-html
+** EMACS ORG-MOD
 *** EMACS ORG-MOD
 - Org-Mod									| http://orgmode.org
 - Org-Mod Guide									| http://orgmode.org/guide/
-*** EMACS PACKAGES
-- Dired										|
-- Evil										|
-- Helm										|
-- Easy Hugo									| https://github.com/masasam/emacs-easy-hugo
 *** EMACS FIREFOX & CHROME
 **** Chrome
 - Wiki: Emacs Google Chrome							| https://www.emacswiki.org/emacs/Google_Chrome
@@ -28,14 +31,8 @@
 - Extension: Edit with Emacs							| https://chrome.google.com/webstore/detail/edit-with-emacs/ljobjlafonikaiipfkggjbhkghgicgoh
 - Extension: Chrome Org Capture							| https://github.com/sprig/org-capture-extension
      - Org Mode Protocol							| http://orgmode.org/worg/org-contrib/org-protocol.html
-
 **** Firefox
 - Wiki: Emacs Firefox								| https://www.emacswiki.org/emacs/Mozilla
 - Extension: Keysnail für Firefox						| https://github.com/mooz/keysnail/wiki
 - Extension: Org Mode Capture							| https://addons.mozilla.org/de/firefox/addon/org-mode-capture/
      - Org Mode Protocol							| http://orgmode.org/worg/org-contrib/org-protocol.html
-
-*** BEITRÄGE
-- Emacs hides .DS_Store files							| https://medium.com/@LyonsClay/solved-emacs-hides-ds-store-files-30711c13583#.n8vxvvxnu
-- Capture HTML from the browser selection into Emacs as org-mode content	| https://github.com/alphapapa/org-protocol-capture-html
-
