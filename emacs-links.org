@@ -1,0 +1,41 @@
+#+OPTIONS: toc:2 
+* EMACS LINKS
+** EMACS
+*** EMACS INSTALLATION
+- Anleitung zur Installation							| http://wikemacs.org/wiki/Installing_Emacs_on_GNU/Linux
+*** EMACS PACKAGE & LIBRARIES
+- Emacs Lisp Package Archive ( Melpa )						| https://melpa.org
+- Emacs default package repository ( Elpa )					| http://elpa.gnu.org/
+- Emacs packages, libraries and others						| https://github.com/emacs-tw/awesome-emacs
+*** EMACS THEMEN
+- Collection of popular Emacs Themes						| https://emacsthemes.com
+*** EMACS KANÄLE
+- Gitter									| https://gitter.im/home/explore/tags/emacs
+*** EMACS DOKUMENTATIONEN
+- Dokumentation									| https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html
+ - Anderen Formate						| https://www.gnu.org/software/emacs/manual/emacs.html
+ - PDF Format für Emacs 25.1					| https://www.gnu.org/software/emacs/manual/pdf/emacs.pdf
+*** EMACS ANWENDER WEBSEITEN 
+- Zhangda | https://zhangda.wordpress.com
+- Emacist | http://emacsist.com
+*** EMACS WEBSEITEN
+- Emacs Rocks | http://emacsrocks.com
+*** EMACS BEITRÄGE
+- Emacs hides .DS_Store files							| https://medium.com/@LyonsClay/solved-emacs-hides-ds-store-files-30711c13583#.n8vxvvxnu
+- Capture HTML from the browser selection into Emacs as org-mode content	| https://github.com/alphapapa/org-protocol-capture-html
+** EMACS ORG-MOD
+***  ORG-MOD
+- Org-Mod									| http://orgmode.org
+- Org-Mod Guide									| http://orgmode.org/guide/
+*** ORG-MOD FÜR FIREFOX & CHROME
+**** Chrome
+- Wiki: Emacs Google Chrome							| https://www.emacswiki.org/emacs/Google_Chrome
+- Extension Search: Chrome Webstore						| https://chrome.google.com/webstore/search/emacs
+- Extension: Edit with Emacs							| https://chrome.google.com/webstore/detail/edit-with-emacs/ljobjlafonikaiipfkggjbhkghgicgoh
+- Extension: Chrome Org Capture							| https://github.com/sprig/org-capture-extension
+     - Org Mode Protocol							| http://orgmode.org/worg/org-contrib/org-protocol.html
+**** Firefox
+- Wiki: Emacs Firefox								| https://www.emacswiki.org/emacs/Mozilla
+- Extension: Keysnail für Firefox						| https://github.com/mooz/keysnail/wiki
+- Extension: Org Mode Capture							| https://addons.mozilla.org/de/firefox/addon/org-mode-capture/
+     - Org Mode Protocol							| http://orgmode.org/worg/org-contrib/org-protocol.html
