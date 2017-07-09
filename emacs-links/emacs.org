@@ -11,12 +11,12 @@
 - Gitter									| https://gitter.im/home/explore/tags/emacs
 *** EMACS DOKUMENTATIONEN
 - Dokumentation									| https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html
-- Dokumentation in anderen Formaten						| https://www.gnu.org/software/emacs/manual/emacs.html
-- Dokumentation als PDF Format für Emacs 25.1					| https://www.gnu.org/software/emacs/manual/pdf/emacs.pdf
-*** EMACS USER WEBSITES 
+ - Anderen Formate						| https://www.gnu.org/software/emacs/manual/emacs.html
+ - PDF Format für Emacs 25.1					| https://www.gnu.org/software/emacs/manual/pdf/emacs.pdf
+*** EMACS ANWENDER WEBSEITEN 
 - Zhangda | https://zhangda.wordpress.com
 *** EMACS WEBSEITEN
--  Emacs Rocks | http://emacsrocks.com
+- Emacs Rocks | http://emacsrocks.com
 *** EMACS BEITRÄGE
 - Emacs hides .DS_Store files							| https://medium.com/@LyonsClay/solved-emacs-hides-ds-store-files-30711c13583#.n8vxvvxnu
 - Capture HTML from the browser selection into Emacs as org-mode content	| https://github.com/alphapapa/org-protocol-capture-html
