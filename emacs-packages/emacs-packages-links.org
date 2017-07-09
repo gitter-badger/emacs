@@ -1,7 +1,6 @@
 #+OPTIONS: toc:2 
 * EMACS PACKAGES
 ** ORG-MOD 
-------
 *** org
 *** toc-org
 *** org-cliplink
@@ -9,7 +8,6 @@
 *** org-board
 *** org-ac
 ** EVIL
------
 *** evil-opener
 *** evil-mark-replace
 *** evil-visualstar
