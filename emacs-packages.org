@@ -8,17 +8,17 @@
 ** I-SEARCH
 *** Keys
 - *Isearch*				| http://am.informatik.hs-mannheim.de/emacs/Incremental-Search.html#Incremental-Search
-  - =C-s=					| forward search
+  - =C-s=				| forward search
   - =C-s C-r=				| backward search
-  - =C-r=					| to switch to a backward search, leaving the search string unchanged.
-  - =C-g=					| canceling the search
+  - =C-r=				| to switch to a backward search, leaving the search string unchanged.
+  - =C-g=				| canceling the search
 - *Repeat Isearch*			| http://am.informatik.hs-mannheim.de/emacs/Repeat-Isearch.html
-  - =C-s C-s=				| forward serach | invokes incremental + search againy
-  - =C-r C-r=				| backward serach | invokes incremental + search againy
+  - =C-s C-s=				| forward serach | invokes incremental + search again
+  - =C-r C-r=				| backward serach | invokes incremental + search again
 - *Reuse earlier search strings*	| http://am.informatik.hs-mannheim.de/emacs/Repeat-Isearch.html#Repeat-Isearch
-  - =M-p=					| previous
-  - =M-n=					| next
-  - =M-e=					| To edit the current search string in the minibuffer without replacing it with items from the search ring
+  - =M-p=				| previous
+  - =M-n=				| next
+  - =M-e=				| To edit the current search string in the minibuffer without replacing it with items from the search ring
 - *list-matching-line*			| http://ergoemacs.org/emacs/elisp_list_matching_lines.html
   - =M-o s=				| It'll list all lines in the current file that matches a given text
 - *Modified to*
