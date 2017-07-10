@@ -1,16 +1,26 @@
-#+OPTIONS: toc:2 
-* EMACS PACKAGES
+#+TITLE: Emacs Packages
+#+AUTHOR: Patrick Schanen
+#+LANGUAGE: en
+#+EMAIL: patrick.schanen@gmail.com
+#+LINK_HOME: http://psnc.github.io 
+#+OPTIONS: toc:1 
 ** I-SEARCH
-- *Isearch*
-  - C-s		| forward isearch
-  - C-s C-r	| backward isearch
-  - C-r		| to switch to a backward search, leaving the search string unchanged.
-- *Repeat Isearch*  http://am.informatik.hs-mannheim.de/emacs/Repeat-Isearch.html
-  - C-s C-s	| forward serach | invokes incremental + search againy
-  - C-r C-r	| backward serach | invokes incremental + search againy
+- *Isearch*		| http://am.informatik.hs-mannheim.de/emacs/Incremental-Search.html#Incremental-Search
+  - C-s			| forward search
+  - C-s C-r		| backward search
+  - C-r			| to switch to a backward search, leaving the search string unchanged.
+  - C-g			| canceling the search
+- *Repeat Isearch*	| http://am.informatik.hs-mannheim.de/emacs/Repeat-Isearch.html
+  - C-s C-s		| forward serach | invokes incremental + search againy
+  - C-r C-r		| backward serach | invokes incremental + search againy
 - *Reuse earlier search strings*
-    - M-p | previous
-    - M-n | next
+    - M-p		| previous
+    - M-n		| next
+- *Mini Buffer*
+  - M-e | a
+- *Modified to*
+- C-c b			| backward search
+- C-c f			| forward serach
 ** ORG-MOD 
 *** org
 *** org-cliplink
@@ -35,6 +45,8 @@
 - Emacs: ace-Jump, Avy, vs Isearch http://emacsist.com/10199
 *** ace-jump-mode
 *** ace-window
+- C-c w | ace-window
+
 ** DIRED
 *** dired-toggle-sudo
 *** dired-quick-sort
