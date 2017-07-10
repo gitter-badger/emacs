@@ -44,10 +44,10 @@
 *** helm-github-stars
 ** ACEJUMP
 *** Keys
-/AceJump-mode is a minor mode for Emacs, enabling fast/direct cursor movement in current view./
-- *acejump* | Wiki https://www.emacswiki.org/emacs/AceJump
+/AceJump-mode is a minor mode for Emacs, enabling fast/direct cursor movement in current view./ /https://www.emacswiki.org/emacs/AceJump/
+- =C-c j= | Head Char. 
 *** Articles
--Emacs: ace-Jump, Avy, vs Isearch http://emacsist.com/10199
+- Emacs: ace-Jump, Avy, vs Isearch http://emacsist.com/10199
 - Emacs: isearch by Arrow Keys http://ergoemacs.org/emacs/emacs_isearch_by_arrow_keys.html
 ** ACE-WINDOW
 *** Keys
