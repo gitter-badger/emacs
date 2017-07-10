@@ -2,11 +2,11 @@
 * EMACS PACKAGES
 ** ORG-MOD 
 *** org
-*** toc-org
 *** org-cliplink
 *** org-autolist
 *** org-board
 *** org-ac
+*** TOC-org
 ** EVIL
 *** evil-opener
 *** evil-mark-replace
