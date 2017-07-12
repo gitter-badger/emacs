@@ -5,54 +5,74 @@
 #+LINK_HOME: http://psnc.github.io 
 #+OPTIONS: toc:2 
 * EMACS PACKAGES
+** ELFEED
+*** URL
+- Melp |https://melpa.org/#/elfeed-org
+- Git | https://github.com/skeeto/elfeed
+*** KEYS
+- (global-set-key (kbd "C-x w") 'elfeed)
+*** MENU
+- *elfeed-search-set-filter*		| Any component of the search string beginning with a + or a - is treated like a tag. + means the tag is required, - means the tag must not be present.
+*** BEITRÄGE
+- https://github.com/remyhonig/elfeed-org
+- http://nullprogram.com/blog/2013/11/26/
+- http://pragmaticemacs.com/emacs/read-your-rss-feeds-in-emacs-with-elfeed/
 ** I-SEARCH
-*** Keys
+*** KEYS
 - *Isearch*				| http://am.informatik.hs-mannheim.de/emacs/Incremental-Search.html#Incremental-Search
-  - =C-s=				| forward search
-  - =C-s C-r=				| backward search
-  - =C-r=				| to switch to a backward search, leaving the search string unchanged.
-  - =C-g=				| canceling the search
+  - *=C-s=*				| forward search
+  - *=C-s C-r=*				| backward search
+  - *=C-r=*				| to switch to a backward search, leaving the search string unchanged.
+  - *=C-g=*				| canceling the search
 - *Repeat Isearch*			| http://am.informatik.hs-mannheim.de/emacs/Repeat-Isearch.html
-  - =C-s C-s=				| forward serach | invokes incremental + search again
-  - =C-r C-r=				| backward serach | invokes incremental + search again
+  - *=C-s C-s=*				| forward serach | invokes incremental + search again
+  - *=C-r C-r=*				| backward serach | invokes incremental + search again
 - *Reuse earlier search strings*	| http://am.informatik.hs-mannheim.de/emacs/Repeat-Isearch.html#Repeat-Isearch
-  - =M-p=				| previous
-  - =M-n=				| next
-  - =M-e=				| To edit the current search string in the minibuffer without replacing it with items from the search ring
+  - *=M-p=*				| previous
+  - *=M-n=*				| next
+  - *=M-e=*				| To edit the current search string in the minibuffer without replacing it with items from the search ring
+*** MENU
 - *list-matching-line*			| http://ergoemacs.org/emacs/elisp_list_matching_lines.html
-  - =M-o s=				| It'll list all lines in the current file that matches a given text
+  - *=M-o s=*				| It'll list all lines in the current file that matches a given text
+*** MODIFIED KEYS
 - *Modified to*
-  - =C-c b=				| backward search
-  - =C-c f=				| forward serach
+  - *=C-c b=*				| backward search
+  - *=C-c f=*				| forward serach
 ** ORG-MOD 
-*** org
-*** org-cliplink
-*** org-autolist
-*** org-board
-*** org-ac
-*** TOC-org
+- org
+- org-toc
+- org-cliplink
+  org-autolist
+- org-board
+- org-ac https://github.com/aki2o/org-ac
+ #+BEGIN_SRC lisp
+ (require 'org-ac)
+ (org-ac/config-default)
+ #+END_SRC
 ** EVIL
-*** evil-opener
-*** evil-mark-replace
-*** evil-visualstar
-*** evil-textobj-anyblock
-*** evil-tutor
-*** evil-args
-*** evil-magit
+- evil-opener
+- evil-mark-replace
+- evil-visualstar
+- evil-textobj-anyblock
+- evil-tutor
+- evil-args
+- evil-magit
 ** HELM
-*** helm
-*** helm-github-stars
+- helm
+- helm-github-starsh
+
 ** ACEJUMP
-*** Keys
-/AceJump-mode is a minor mode for Emacs, enabling fast/direct cursor movement in current view./ /https://www.emacswiki.org/emacs/AceJump/
-- *Serach by Char.*
- - =C-c j= | Head Char. 
-*** Articles
-- Emacs: ace-Jump, Avy, vs Isearch http://emacsist.com/10199
-- Emacs: isearch by Arrow Keys http://ergoemacs.org/emacs/emacs_isearch_by_arrow_keys.html
+*** URL
+- URL					| https://www.emacswiki.org/emacs/AceJumpAceJump-mode 
+*** KEYS
+- *=C-c j=*				| Search by Char. 
+*** ARTICLES
+- Emacs: ace-Jump, Avy, vs Isearch	| http://emacsist.com/10199
+- Emacs: isearch by Arrow Keys		| http://ergoemacs.org/emacs/emacs_isearch_by_arrow_keys.html
+
 ** ACE-WINDOW
 *** Keys
-- =C-c w= | ace-window 
+- *=C-c w=* | ace-window 
 ** DIRED
 *** dired-toggle-sudo
 *** dired-quick-sort
@@ -87,3 +107,9 @@
 *** undo-tree
 *** neotree
 *** diffview
+   
+- ORG-AC https://github.com/aki2o/org-ac
+ #+BEGIN_SRC lisp
+ (require 'org-ac)
+ (org-ac/config-default)
+ #+END_SRC
