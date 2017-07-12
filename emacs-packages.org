@@ -5,44 +5,47 @@
 #+LINK_HOME: http://psnc.github.io 
 #+OPTIONS: toc:2 
 * EMACS PACKAGES
+** RECENTF
+*** Keys
+ - =C-x C-r=
 ** ELFEED
-*** URL
-- Melp |https://melpa.org/#/elfeed-org
-- Git | https://github.com/skeeto/elfeed
 *** KEYS
-- (global-set-key (kbd "C-x w") 'elfeed)
+ - =C-x w=
+*** URL
+ - Melpa |https://melpa.org/#/elfeed-org
+ - Gitub | https://github.com/skeeto/elfeed
 *** MENU
-- *elfeed-search-set-filter*		| Any component of the search string beginning with a + or a - is treated like a tag. + means the tag is required, - means the tag must not be present.
+- =elfeed-search-set-filter=		| Any component of the search string beginning with a + or a - is treated like a tag. + means the tag is required, - means the tag must not be present.
 *** BEITRÄGE
 - https://github.com/remyhonig/elfeed-org
 - http://nullprogram.com/blog/2013/11/26/
 - http://pragmaticemacs.com/emacs/read-your-rss-feeds-in-emacs-with-elfeed/
 ** I-SEARCH
 *** KEYS
-- *Isearch*				| http://am.informatik.hs-mannheim.de/emacs/Incremental-Search.html#Incremental-Search
-  - *=C-s=*				| forward search
-  - *=C-s C-r=*				| backward search
-  - *=C-r=*				| to switch to a backward search, leaving the search string unchanged.
-  - *=C-g=*				| canceling the search
-- *Repeat Isearch*			| http://am.informatik.hs-mannheim.de/emacs/Repeat-Isearch.html
-  - *=C-s C-s=*				| forward serach | invokes incremental + search again
-  - *=C-r C-r=*				| backward serach | invokes incremental + search again
-- *Reuse earlier search strings*	| http://am.informatik.hs-mannheim.de/emacs/Repeat-Isearch.html#Repeat-Isearch
-  - *=M-p=*				| previous
-  - *=M-n=*				| next
-  - *=M-e=*				| To edit the current search string in the minibuffer without replacing it with items from the search ring
+ - *Isearch*				| http://am.informatik.hs-mannheim.de/emacs/Incremental-Search.html#Incremental-Search
+   - =C-s=				| forward search
+   - =C-s C-r=				| backward search
+   - =C-r=				| to switch to a backward search, leaving the search string unchanged.
+   - =C-g=				| canceling the search
+ - Repeat Isearch			| http://am.informatik.hs-mannheim.de/emacs/Repeat-Isearch.html
+   - =C-s C-s=				| forward serach | invokes incremental + search again
+   - =C-r C-r=				| backward serach | invokes incremental + search again
+ - Reuse earlier search strings	| http://am.informatik.hs-mannheim.de/emacs/Repeat-Isearch.html#Repeat-Isearch
+   - *=M-p=*				| previous
+   - *=M-n=*				| next
+   - *=M-e=*				| To edit the current search string in the minibuffer without replacing it with items from the search ring
 *** MENU
-- *list-matching-line*			| http://ergoemacs.org/emacs/elisp_list_matching_lines.html
+- =list-matching-line=			| http://ergoemacs.org/emacs/elisp_list_matching_lines.html
   - *=M-o s=*				| It'll list all lines in the current file that matches a given text
 *** MODIFIED KEYS
 - *Modified to*
-  - *=C-c b=*				| backward search
-  - *=C-c f=*				| forward serach
+  - =C-c b=				| backward search
+  - =C-c f=				| forward serach
 ** ORG-MOD 
 - org
 - org-toc
 - org-cliplink
-  org-autolist
+- org-autolist
 - org-board
 - org-ac https://github.com/aki2o/org-ac
  #+BEGIN_SRC lisp
@@ -72,7 +75,7 @@
 
 ** ACE-WINDOW
 *** Keys
-- *=C-c w=* | ace-window 
+- =C-c w= | ace-window 
 ** DIRED
 *** dired-toggle-sudo
 *** dired-quick-sort
