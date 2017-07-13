@@ -36,51 +36,59 @@
 - https://github.com/remyhonig/elfeed-org
 - http://nullprogram.com/blog/2013/11/26/
 - http://pragmaticemacs.com/emacs/read-your-rss-feeds-in-emacs-with-elfeed/
-** I-SEARCH
+** ISEARCH
+*** URL
+- http://am.informatik.hs-mannheim.de/emacs/Incremental-Search.html#Incremental-Search
+*** KEYS  
+- =C-s=				| forward search
+- =C-s C-r=				| backward search
+- =C-r=				| to switch to a backward search, leaving the search string unchanged.
+- =C-g=				| canceling the search
+** ISERACH - REPEAT 
+*** URL
+- http://am.informatik.hs-mannheim.de/emacs/Repeat-Isearch.html
 *** KEYS
- - Isearch				| http://am.informatik.hs-mannheim.de/emacs/Incremental-Search.html#Incremental-Search
-   - =C-s=				| forward search
-   - =C-s C-r=				| backward search
-   - =C-r=				| to switch to a backward search, leaving the search string unchanged.
-   - =C-g=				| canceling the search
- - Repeat Isearch			| http://am.informatik.hs-mannheim.de/emacs/Repeat-Isearch.html
-   - =C-s C-s=				| forward serach | invokes incremental + search again
-   - =C-r C-r=				| backward serach | invokes incremental + search again
- - Reuse earlier search strings	| http://am.informatik.hs-mannheim.de/emacs/Repeat-Isearch.html#Repeat-Isearch
-   - =M-p=				| previous
-   - =M-n=				| next
-   - =M-e=				| To edit the current search string in the minibuffer without replacing it with items from the search ring
-*** MENU
-- =list-matching-line=			| http://ergoemacs.org/emacs/elisp_list_matching_lines.html
-  - =M-o s=				| It'll list all lines in the current file that matches a given text
+- =C-s C-s=				| forward serach | invokes incremental + search again
+- =C-r C-r=				| backward serach | invokes incremental + search again
+** ISERACH - REUSE EARLIER SEARCH STRINGS
+- =M-p=				| previous
+- =M-n=				| next
+- =M-e=				| To edit the current search string in the minibuffer without replacing it with items from the search ring
+** ISEARCH -LIST MATCHING LINES
+*** URL
+- http://ergoemacs.org/emacs/elisp_list_matching_lines.html
+*** KEYS
+- =M-o s=				| It'll list all lines in the current file that matches a given text
 *** MODIFIED KEYS
-- Modified to
-  - =C-c b=				| backward search
-  - =C-c f=				| forward serach
-** ORG-MOD 
-- org
-- org-toc
-- org-cliplink
-- org-autolist
-- org-board
-- org-ac https://github.com/aki2o/org-ac
+ Modified to
+- =C-c b=				| backward search
+- =C-c f=				| forward serach
+** ORG - MOD 
+** ORG - TOC
+** ORG - CLIPLINK
+** ORG - AUTOLIST
+** ORG - BOARD
+** ORG - AC 
+*** URL
+- https://github.com/aki2o/org-ac
+*** SNIPPET
  #+BEGIN_SRC lisp
  (require 'org-ac)
  (org-ac/config-default)
  #+END_SRC
 ** EVIL
-- evil-opener
-- evil-mark-replace
-- evil-visualstar
-- evil-textobj-anyblock
-- evil-tutor
-- evil-args
-- evil-magit
+** EVIL - OPENER 
+** EVIL - MARK-REPLACE
+** EVIL - VISUALSTAR
+** EVIL - TEXTOBJ-ANYBLOCK
+** EVIL - TUTOR
+** EVIL - ARGS
+** EVIL - MAGIT
 ** HELM
 - helm
 - helm-github-starsh
 
-** ACEJUMP
+** ACE - JUMP
 *** URL
 - URL					| https://www.emacswiki.org/emacs/AceJump
 *** KEYS
@@ -89,12 +97,12 @@
 - Emacs: ace-Jump, Avy, vs Isearch	| http://emacsist.com/10199
 - Emacs: isearch by Arrow Keys		| http://ergoemacs.org/emacs/emacs_isearch_by_arrow_keys.html
 
-** ACE-WINDOW
+** ACE - WINDOW
 *** Keys
 - =C-c w= | ace-window 
 ** DIRED
-** DIRED TOOGLE SUDO
-** DIRED QUICK SORT
+** DIRED - TOOGLE SUDO
+** DIRED - QUICK SORT
 ***  SNIPPET
 #+BEGIN_SRC lisp
 (require 'dired-quick-sort)
@@ -103,37 +111,23 @@
 ** MARKDOWN
 *** markdown-mode
 ** LATEX
-*** auctex
+** AUCTEX
 ** PANDOC
-*** pandoc
-*** pandoc-mode
-** CVS
-*** csv-mode
-** GIT
-*** gited
-*** magit
-*** gist
+** PANDOC-MODE
+** CSV-MODE
+** MAGIT
+** GIST
 ** HUGO
-*** easy-hugo https://github.com/masasam/emacs-easy-hugo
-/Emacs major mode for writing blogs made with hugo by markdown or org-mode or AsciiDoc or reStructuredText or mmark/ 
--
-** TWITTER
-*** twittering-mode
-** SNIPPET
-*** yasnippet
-** THEMEN
-*** solarized-theme
-*** airline-themes
+*** URL
+- https://github.com/masasam/emacs-easy-hugo
+** TWIT
+** YASNIPPET
+** SOLARIZED-THEME
+** AIRLINE-THEMES
 -----
 ** TO SORT
-*** syndicate
-*** scss-mode
-*** undo-tree
-*** neotree
-*** diffview
+** SYNDICATE
+** SCSS-MODE
+** UNDO-TREE
+** DIFFVIEW
    
-- ORG-AC https://github.com/aki2o/org-ac
- #+BEGIN_SRC lisp
- (require 'org-ac)
- (org-ac/config-default)
- #+END_SRC
